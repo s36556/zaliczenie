@@ -1,0 +1,32 @@
+    .foto{
+        border: 10px solid white;
+        transition: border-color 0.3s;
+    }
+
+    .foto:hover{
+        border-color: rgb(48, 62, 255);
+    }
+
+    .loctlo{
+         background-image: url(images/tloshogun1.jpg);
+    }
+
+    .tlo2{
+         background-color: rgb(10, 5, 54);
+    }
+    
+    h3{
+        background-color: rgb(63, 41, 114);
+        padding: 20px;
+        font-size: 20px;
+        color: aliceblue;
+        text-align: center; 
+        text-align: left; 
+        margin-left: 10rem;
+        margin-right: 10rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+    
+    
