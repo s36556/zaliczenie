@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta name= viewport>
+        <title>Introduce Yourself!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleintroduce.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pnx8fma.css">
+
+    </head>
+
+    <body  class="tlocolorintr">
+    
+        <header>
+            <nav>
+            <a href = "indeks.html"> Home</a>
+            <a href = "locations.html"> Locations</a>
+            <a href = "Weapons.html"> Weapons</a>
+            <a href = "characters.html"> Characters</a>
+        
+            </nav>
+    </header>
+
+        <div class="tlointrimg">
+        <div class="linia"></div>
+        <p class="title">Introduce Yourself</p>
+
+    </div>
+
+
+    <form action="/submit-form" method="post">
+
+        <p>1. What's your name??</p>
+        <input type="text" name="name" required>
+
+        <p>2. IHow old are you??</p>
+        <input type="number" name="age" min="1" max="99" required>
+
+        <p>3. In which of Teyvats's nations would you live?</p>
+        <select name="Nation">
+            <option>Monstand</option>
+            <option>Liyue</option>
+            <option>Inazuma</option>
+            <option>Sumeru</option>
+            <option>Fontaine</option>
+            <option>Natlan</option>
+            <option>Snezhnaya</option>
+            
+        </select>
+
+        <p>4. What vision would you be blessed by Archons with?</p>
+        <select name="Vision">
+            <option>Anemo</option>
+            <option>Geo</option>
+            <option>Electro</option>
+            <option>Dendro</option>
+            <option>Hydro</option>
+            <option>Pyro</option>
+            <option>Cryo</option>
+        </select>
+
+        <p>5. For how long have you been playing Genshin?</p>
+                <input type="radio" name="czas" value="mniej_niz_rok" required> Less than a year<br>
+                <input type="radio" name="czas" value="1_3_lata"> 1-3 years<br>
+                <input type="radio" name="czas" value="ponad_3_lata"> More than 3 years
+                <br><br>
+                <input type="submit" value="Submit">
+
+    </form>
+
+       <a href = "locations.html" class="btn">Next page</a>
+   
+</body>
+
+<footer> site was made by Marta Cuper s36556 :3</footer>
+    </html>
+   
+
