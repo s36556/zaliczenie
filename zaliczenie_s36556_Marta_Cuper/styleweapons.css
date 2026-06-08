@@ -1,34 +1,36 @@
 h3{
     color: aliceblue; 
     text-align: center; 
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 10rem;
+    margin-right: 10rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 .tlo1{
     background-color: rgb(13, 10, 41);
+    background-size: cover;
 }
 
 .tlo2{
     background-image: url(images/tloshogun.png);
+    background-size: cover;
 }
 
 .container{
     color: #ffffff;
-    width: 100%;
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    height: 1500px;
 }
 
 .item{
-    padding: 40px;
+    flex: 1;
+    padding: 3rem;
     background: rgb(62, 30, 99);
-    width: 400px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

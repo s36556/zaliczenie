@@ -1,36 +1,38 @@
     body{
             background-image: url(images/weapontlo.jpg);
+            background-size: cover;
             background-repeat: no-repeat;
             color: aliceblue;
     }
 
 
   .hometitle{
-        margin-left: 40px;
-        font-size: 280px;
+        margin-left: 3rem;
+        font-size: 17rem;
         font-family: "scribo-regular", sans-serif;
         font-weight: 500;
         font-style: normal;
+        font-size: 25vh;
         color: rgb(255, 255, 255);
         
     }
 
     
 .tekst{
-    margin-left: 450px;
-    margin-bottom: 270px;
-    width: 700px;
+    margin-left: 28rem;
+    margin-bottom: 26rem;
+    width: 43rem;
     color: aliceblue;
     column-count: 3;
-    column-gap: 20px;
+    column-gap: 1rem;
 }
 
    .spin {
     animation: spin 4s ease-in-out infinite;
-    width: 200px;
-    height: 200px;
-    margin-left: 700px;
-    margin-top: -400px;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 43rem;
+    margin-top: -25rem;
 }
 
   @keyframes spin{
