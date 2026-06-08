@@ -9,6 +9,10 @@ h3{
     background-image: url(images/tlo3.jpg);
 }
 
+.map{
+    margin-left: 300px;
+}
+
 .tlocolor{
 
     background-color: rgb(17, 4, 54);
