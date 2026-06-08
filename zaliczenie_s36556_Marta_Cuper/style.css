@@ -15,7 +15,7 @@
     font-size: 30px;
     color: rgb(255, 255, 255);
     font-family: "scribo-regular", sans-serif;
-    margin-left: 25rem;
+    margin-left: 300px;
     font-weight:400;
     transition: 0.3s ease-in-out;
     }
@@ -44,7 +44,7 @@
 
 
     .title{
-        font-size: 10rem;
+        font-size: 160px;
         font-family: "scribo-regular", sans-serif;
         font-weight: 800;
         font-style: normal;
@@ -52,12 +52,12 @@
         text-align: center;
         display: flex;
         justify-content: center;
-        height: 40vh;
+        height: 400px;
     }
 
     .smoltitle{
         color: #ffffff;
-        font-size: 6rem;
+        font-size: 96px;
         font-family: "scribo-regular", sans-serif;
         font-weight: 300;
     }

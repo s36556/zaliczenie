@@ -1,5 +1,5 @@
 .tlointrimg{
-    background-image: url(images/tloganyu.png);
+    background-image: url(https://images4.alphacoders.com/113/1130246.jpg);
     background-size: cover;
 }
 
@@ -15,7 +15,7 @@ form{
     font-size: 30px;
 }
 
-.submit{
+.button{
     background-color: #7cbcff;
     color: white;
     padding: 10px 16px;

@@ -5,10 +5,6 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.map{
-    margin: 12%;
-}
-
 .tloimg{
     background-image: url(images/tlo3.jpg);
 }
@@ -19,8 +15,9 @@ h3{
 }
 
 .tekst{
-    margin-right: 8rem;
-    margin-left: 8rem;
+    margin-right: 128px;
+    margin-left: 128px;
+    margin-bottom: 128px;
     color: aliceblue;
     column-count: 3;
     column-gap: 20px;
